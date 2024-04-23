@@ -1,0 +1,195 @@
+
+:root {
+
+    --blue: #2248E2;
+    --black_1: #343A40;
+    --black_2: rgba(0, 0, 0, 0.5);
+    --yellow: #FFC107;
+    --blue-green: #17A2B8;
+    --white: #eee;
+    
+    }
+
+
+html{
+    scroll-behavior: smooth;
+    }
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    padding: 0;
+    margin: 0;
+}
+
+.navigation_bar, .nav_options, .logo_text{
+    align-items: center;
+}
+h1,h2,h3,h4,h5,h6, p, ul, a{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo_section svg{
+    height: 5vh;
+    width: 3rem;
+}
+
+.background{
+    position: relative;
+    
+}
+.background_container{
+    position: absolute;
+}
+
+.left_bg img{
+    height: 25em;
+    width: 70rem;
+    z-index: -1;
+}
+
+.left_bg{
+    right: 1%;
+}
+
+.right_bg{
+   height: 100px;
+   width: 25%;
+   left: -4.4rem;
+   bottom: 1rem;
+   z-index: -1;
+}
+
+.right_bg img{
+    height: 18rem;
+    
+ }
+.landing_texts h1{
+    font-weight: 400;
+}
+
+.landing_texts p, .about_us p{
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.download_options{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.download_options svg{
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.faded{
+    color: var(--black_1);
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--black_1), rgba(255, 255, 255, 0));
+}
+.about_us .about_info h2{
+    font-weight: 700;
+}
+
+.svg_section svg{
+    width: 15rem;
+    height: 10rem;
+}
+
+#call_to_action_1{
+    background-color: var(--blue);
+    color: white;
+    position: relative;
+}
+
+
+.texts p{
+    font-weight: 300;
+    font-size: .9rem;
+    
+}
+
+.c_card{
+    border-radius: .4rem;
+    color: var(--white);
+}
+
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag p{
+
+    font-weight: 500;
+    font-size: .7rem;
+    background-color: var(--black_2);
+    color: var(--white);
+    border-radius: .5rem;
+    padding: 2px;
+    text-align: center;
+    }
+
+.subtitle{
+    font-weight: 600;
+}
+
+.left_section{
+    display: block;
+    flex: wrap;
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+
+.b_green{
+    background-color: var(--blue-green);
+}
+
+
+.design_call_to_action_2 img{
+    width: 100%;
+    
+}
+
+.leaves{
+    position: absolute;
+    right: 0;
+    bottom: 50%; 
+}
+
+footer{
+    background-color: var(--black_1);
+    color: var(--white);
+}
+
+.c_details .sub{
+    font-size: 1.5rem;
+}
+.c_details p{
+    line-height: 1.7rem;
+    font-size: 1rem;
+
+}
